@@ -1,4 +1,4 @@
 Year-7
 ======
 
-Year 7 Modules
+Year 7 Front page
