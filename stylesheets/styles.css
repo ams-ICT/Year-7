@@ -270,6 +270,7 @@ table {
 th, td {
   text-align: center;
   padding: 5px 10px;
+  border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   border-left: 1px solid #aaa;
   border-right: 1px solid #aaa;
@@ -282,7 +283,7 @@ dt {
 }
 
 th {
-  color: #222;
+  color: #cef;
 }
 
 small {
