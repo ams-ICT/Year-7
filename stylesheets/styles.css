@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-  width: 75;
+  width: 75%;
   margin: 0 auto;
   background: #DEDEDE;
   -webkit-border-radius: 8px;
@@ -67,6 +67,8 @@ header {
   position: relative;
   padding: 15px 20px;
   border-bottom: 1px solid #B2D2E1;
+  background-image: url('images\logo1.png')no-repeat right;
+		
 }
 header h1 {
   margin: 0;
@@ -74,7 +76,7 @@ header h1 {
   font-size: 24px;
   line-height: 1.2;
   color: #069;
-  text-shadow: 2px 2px 1px #0bf;
+  text-shadow: 2px 2px 1px #0bb;
 }
 header.without-description h1 {
   margin: 10px 0;
@@ -82,7 +84,7 @@ header.without-description h1 {
 header p {
   margin: 0;
   color: #61778B;
-  width: 300px;
+  width: 80%;
   font-size: 13px;
 }
 header p.view {
@@ -254,12 +256,12 @@ li pre {
 }
 
 table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
 }
 
 th, td {
-  text-align: left;
+  text-align: center;
   padding: 5px 10px;
   border-bottom: 1px solid #aaa;
 }
