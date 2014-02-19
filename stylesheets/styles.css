@@ -11,7 +11,7 @@ html {
 
 body {
   padding: 50px 0;
-  margin: 1;
+  margin: 0;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
@@ -34,9 +34,7 @@ body {
 
 header, nav, section, footer {
   display: block;
-  padding: 10px;
-  margin:1px;
-  border: 1px;
+
 }
 
 a {
