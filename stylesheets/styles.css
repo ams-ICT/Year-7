@@ -34,6 +34,9 @@ body {
 
 header, nav, section, footer {
   display: block;
+  padding: 10px;
+  margin:1px;
+  border: 1px;
 }
 
 a {
@@ -43,7 +46,7 @@ a {
 
 p {
   margin: 0 0 20px;
-  padding: 0;
+  padding: 10;
 }
 
 strong {
@@ -71,13 +74,14 @@ header {
 		
 }
 header h1 {
-  margin: 0;
-  padding: 0;
+  margin: 1px;
+  padding: 1px;
   font-size: 24px;
   line-height: 1.2;
   color: #069;
   text-shadow: 2px 2px 1px #0bb;
 }
+
 header.without-description h1 {
   margin: 10px 0;
 }
@@ -123,7 +127,7 @@ header ul {
   width: auto;
 }
 header ul:before {
-  content: '';
+  content: ' ';
   position: absolute;
   z-index: -1;
   left: -5px;
