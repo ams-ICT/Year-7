@@ -32,7 +32,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
 
-header, section, footer {
+header, nav, section, footer {
   display: block;
 }
 
@@ -67,7 +67,7 @@ header {
   position: relative;
   padding: 15px 20px;
   border-bottom: 1px solid #B2D2E1;
-  background-image: url('images\logo1.png')no-repeat right;
+  background-image: url('logo1.png')no-repeat right;
 		
 }
 header h1 {
@@ -194,11 +194,13 @@ section {
   position: relative;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   color: #222;
-  padding: 0;
+  padding: 10px;
   margin: 0 0 20px;
   line-height: 1.2;
+	text-shadow: 1px 1px 2px #aaa
 }
 
 p, ul, ol, table, pre, dl {
@@ -232,6 +234,11 @@ blockquote {
 
 img {
   max-width: 100%;
+  border-color: 1px solid #fff;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 code, pre {
