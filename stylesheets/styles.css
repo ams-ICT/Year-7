@@ -15,7 +15,7 @@ body {
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
+  background: url('bg.png') fixed;
 }
 
 .wrapper {
@@ -283,7 +283,10 @@ dt {
 }
 
 th {
-  color: #cef;
+  color: #333;
+  font-weight: 900;
+  font-size: larger;
+  background-color: #cef;
 }
 
 small {
@@ -308,7 +311,7 @@ footer a {
   color: #fff;
   font-weight: bold;
 }
-footer p {
+footer h2, p {
   float: left;
 }
 footer p + p {
