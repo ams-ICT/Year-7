@@ -271,6 +271,9 @@ th, td {
   text-align: center;
   padding: 5px 10px;
   border-bottom: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-radius: 2px;
 }
 
 dt {
